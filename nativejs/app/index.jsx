@@ -1,8 +1,7 @@
 import {StyleSheet, Text, View} from "react-native";
-import {useState} from "react";
 
-const val="Est ce que c'est bon pour vousss??"
-export default function IndexJs() {
+const val = "Est ce que c'est bon pour vousss??"
+export default function Index() {
     return (
         <View style={pageStyle.viewStyle}>
             <Text style={pageStyle.textStyle}>{val}</Text>
@@ -10,7 +9,6 @@ export default function IndexJs() {
         </View>
     );
 }
-
 const pageStyle = StyleSheet.create({
     viewStyle: {
         flex: 1,
